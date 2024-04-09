@@ -10,8 +10,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.20.0/axios.min.js"></script>
 </head>
 <body>
-    
+    <div id="app">
+        <ul>
+            <li v-for="mail in mailArray">{{ mail }}</li>
+        </ul>
+    </div>
     <!--js-->
-    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>
